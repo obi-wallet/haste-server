@@ -25,9 +25,19 @@
 
   "rateLimits": {
     "categories": {
-      "normal": {
-        "totalRequests": 500,
-        "every": 60000
+      {
+        "twilio": {
+          "totalRequests": 500000,
+          "every":         60
+        },
+        "blacklist": {
+          "totalRequests": 0,
+          "every":         0 
+        },
+        "normal": {
+          "totalRequests": 60,
+          "every":         60
+        }
       }
     }
   },
