@@ -24,22 +24,20 @@
   },
 
   "rateLimits": {
-    "categories": {
-      [
-        "twilio": {
-          "totalRequests": 500000,
-          "every":         60
-        },
-        "blacklist": {
-          "totalRequests": 0,
-          "every":         0 
-        },
-        "normal": {
-          "totalRequests": 60,
-          "every":         60
-        }
-      ]
-    }
+    "categories": [
+      "twilio": {
+        "totalRequests": 500000,
+        "every":         60
+      },
+      "blacklist": {
+        "totalRequests": 0,
+        "every":         0 
+      },
+      "normal": {
+        "totalRequests": 60,
+        "every":         60
+      }
+    ]
   },
 
   "storage": {
