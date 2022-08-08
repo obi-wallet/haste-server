@@ -25,7 +25,7 @@
 
   "rateLimits": {
     "categories": {
-      {
+      [
         "twilio": {
           "totalRequests": 500000,
           "every":         60
@@ -38,7 +38,7 @@
           "totalRequests": 60,
           "every":         60
         }
-      }
+      ]
     }
   },
 
