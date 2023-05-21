@@ -1,3 +1,4 @@
+var cors = require('cors')
 var http = require('http');
 var fs = require('fs');
 
@@ -100,6 +101,7 @@ var documentHandler = new DocumentHandler({
 });
 
 var app = connect();
+app.use(cors())
 
 // Rate limit all requests
 if (config.rateLimits) {
